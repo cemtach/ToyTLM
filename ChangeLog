@@ -1,0 +1,39 @@
+2009-08-07  Hugh Sasse  <hgs@dmu.ac.uk>
+
+	* Added configure.ac from autoscan as move towards 
+	the use of autoconf.
+
+	* Removed unused variables from ToyTLM.c found with
+	--Wall flags to gcc
+
+	* Added include of malloc.h and function prototype
+	for main() to ToyTLM.c
+
+	* Added return(0); as this confirms Paul's experiment
+	about removing an error from Make
+
+	* Added a check target to the makefile, a variable for
+	rm and - signs in front of commands which may fail
+	harmlessly.
+
+1999-08-13  Paul Robert Hayes  <info@cemtach.com>
+
+	* Created 0.1 tar file and web page for initial release.
+
+	* Added output to the last iteration.
+
+	* Upgraded comments a bit more.
+
+	* Began cleanup from optimized version (which will be a ToyBox
+	release) into the Toy flavor which is more clear even from a code
+	standpoint.  This code was based off an optimized 3D TLM code so
+	most of the generality and optimizations had to be removed in
+	order for clarity to reign.  Large amounts of code have been
+	removed in order to get to the simple and clear stage.
+
+1999-08-06  Paul Robert Hayes  <info@cemtach.com>
+
+	* Created ToyTLM and began merging old TLM software into it's
+	design style which should map nearly identically to ToyFDTD in
+	problem and output.
+
